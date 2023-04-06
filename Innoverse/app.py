@@ -33,9 +33,9 @@ class Newsletter(db.Model):
 
 
 
-# create the database
-with app.app_context():
-    db.create_all()
+# # create the database
+# with app.app_context():
+#     db.create_all()
 
 # admin panel
 admin = Admin(app, name='Admin Panel', template_mode='bootstrap4')
